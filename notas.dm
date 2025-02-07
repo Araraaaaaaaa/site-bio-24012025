@@ -24,7 +24,8 @@
 
 #páginas (min 5):
 
-    -o que é whey, suplementos e seus benefícios (página principal)
+    -página principal
+    -o que é whey, suplementos e seus benefícios
     -compra deles (página mostrando uma tabela de preços e tabela nutricional)
     -entrar (label e afins vai estar no nav do header. usuários novos)
     -cadastrar (label e afins vai estar no nav do header. usuários antigos)
@@ -33,10 +34,3 @@
 #os mais importantes:
 
     -
-
-Fonte principal do título: Acme regular 400
-Fonte de corpo de texto: Josefin Sans
-Cores: Muitos dos produtos têm as colorações bege ou branca, acho interessante usarmos na paleta.
-maioria das embalagens é vermelha e/ou laranja, preta ou verde
-o colorido ou marrom/verde remetem ao natural
-
