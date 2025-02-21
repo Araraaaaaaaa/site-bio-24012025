@@ -1,40 +1,84 @@
-* {
-    margin: 0%;
-}
-
-body {
-    background-color: rgb(255, 252, 226);
+@font-face {
     font-family: "Roboto";
+    src: url("/paginas/RobotoCondensed.ttf");
 }
 
-aside {
-    background-color: #447A7D;
+/*RETIRANDO O INDESEJADO*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 1em;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 3em;
     text-align: center;
 }
 
-/* NAV */
-nav {
-    background-color: white;
+main ul, header ol {
+    display: flex; /* Alinha os itens horizontalmente */
+    list-style-type: none;
+    padding: 0.3em;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
 
-a[href="Cadastrar.html"] {
+/*AVISO REFERENTE AO FRETE GRÁTIS*/
+aside {
+    text-align: center;
     background-color: #447A7D;
-    padding: 4.8px;
-    border-radius: 2em;
+    padding: 5px;
+    color: #ffffff;
+    font-family:"sans-serif";
+    font-family: "Roboto";
+    font-weight: lighter;
+
 }
+mark {
+    background: #CC2B3E;
+    padding: 2px;
+    border-radius: 1em;
+    color: #ffffff;
+}
+
 
 div.navDeCima {
     background-color: #56BDB1;
-    display: flex;
-    justify-content: center;
-    padding: 1.5em;
 }
 
-header {
-    align-items: center;
+div.navDeBaixo header ol li a {
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+}
+
+div.navDeBaixo ol {
+    background-color: #ffffff;
+    padding: 1em;
+    box-shadow: 5px 3px 10px rgb(126, 126, 126);
+    justify-content: flex-end;
+}
+
+header ol li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+/*IMAGENS*/
+main img.imagem_principal {
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 2em;
+
+}
+
+main ul {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-top: 3em;
+
 }
