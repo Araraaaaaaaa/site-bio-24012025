@@ -16,3 +16,12 @@ aside {
 nav {
     background-color: white;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a[href="Cadastrar.html"] {
+    color: blueviolet;
+}
