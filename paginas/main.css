@@ -23,5 +23,18 @@ a {
 }
 
 a[href="Cadastrar.html"] {
-    color: blueviolet;
+    background-color: #447A7D;
+    padding: 4.8px;
+    border-radius: 2em;
+}
+
+div.navDeCima {
+    background-color: #56BDB1;
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+header {
+    align-items: center;
 }
