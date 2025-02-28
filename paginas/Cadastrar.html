@@ -3,65 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio - Início</title>
+    <title>Bio - Cadastro</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <aside>
-            <h3>FRETE GRÁTIS A PARTIR DE R$199,99</h3>
-        </aside>
+        <p class="frete">FRETE GRÁTIS A PARTIR DE <mark>R$199,99</mark></p>
         <nav>
             <div class="navDeCima">
-                <img src="" alt="Logotipo Bio-Suplementos">
+                <h1><img src="imagens/menu/BIO.png" alt="Logotipo Bio-Suplementos"></h1>
                 <form action="pesquisa">
-                    <input class="Lupa" type="image" src="LupaVetor.svg" >
+                    
                     <label for="Busca">
                         <input type="search" id="Busca">
                     </label>
+                    <input class="Lupa" type="image" src="paginas/imagens/Vetor.svg" >
                     <!-- A marcação input dessa forma tem o mesmo valor de um submit comum -->
                 </form>
-                <form action="Estado">
-                    <select id="Estado">
-                        <option>------</option>
-                        <option>Distrito Federal</option>
-                        <option>Alagoas</option>
-                        <option>Bahia</option>
-                        <option>Amapá</option>
-                        <option>Amazonas</option>
-                        <option>Rondônia</option>
-                        <option>Roraima</option>
-                        <option>Tocantins</option>
-                        <option>Espírito Santo</option>
-                        <option>Santa Catarina</option>
-                        <option>Pará</option>
-                        <option>Acre</option>
-                        <option>Ceará</option>
-                        <option>Paraíba</option>
-                        <opton>Piauí</opton>
-                        <option>Sergipe</option>
-                        <option>Pernambuco</option>
-                        <option>Rio Grande do Norte</option>
-                        <option>Rio Grande do Sul</option>
-                        <option>Maranhão</option>
-                        <option>Minas Gerais</option>
-                        <option>Paraná</option>
-                        <option>Goiás</option>
-                        <option>Mato Grosso</option>
-                        <option>Mato Grosso do Sul</option>
-                        <option>São Paulo</option>
-                        <option>Rio de Janeiro</option>
-                        <option>Ceará</option>
-                    </select>
-                </form>
-                <a href="Compra.html"><img src="" alt="ícone de carrinho de compras"></a>
-                <a href="Ajuda.html"><img src="" alt="ícone de telefone"></a>
-                <a href="Entrar.html">ENTRAR</a>
-                <a href="Cadastrar.html">CADASTRAR</a>
+                <div class="escolha_estado">
+                    <form class="itens_esquerda" action="Estado">
+                        <select id="Estado">
+                            <option>------</option>
+                            <option>Distrito Federal</option>
+                            <option>Alagoas</option>
+                            <option>Bahia</option>
+                            <option>Amapá</option>
+                            <option>Amazonas</option>
+                            <option>Rondônia</option>
+                            <option>Roraima</option>
+                            <option>Tocantins</option>
+                            <option>Espírito Santo</option>
+                            <option>Santa Catarina</option>
+                            <option>Pará</option>
+                            <option>Acre</option>
+                            <option>Ceará</option>
+                            <option>Paraíba</option>
+                            <option>Piauí</option>
+                            <option>Sergipe</option>
+                            <option>Pernambuco</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio Grande do Sul</option>
+                            <option>Maranhão</option>
+                            <option>Minas Gerais</option>
+                            <option>Paraná</option>
+                            <option>Goiás</option>
+                            <option>Mato Grosso</option>
+                            <option>Mato Grosso do Sul</option>
+                            <option>São Paulo</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Ceará</option>
+                        </select>
+                    </form>
+                </div>
+                <ol>
+                    <li class="itens_esquerda"><a href="Compra.html"><img src="" alt="ícone de carrinho de compras"></a></li>
+                    <li class="itens_esquerda"><a href="Ajuda.html"><img src="" alt="ícone de telefone"></a></li>
+                    <li class="itens_esquerda"><a href="Entrar.html">ENTRAR</a></li>
+                    <li class="itens_esquerda"><a href="Cadastrar.html">CADASTRAR</a></li>
+                </ol>
             </div>
             <div class="navDeBaixo">
                 <ol>
-                    <li>CATEGORIAS</li>
+                    <li class="categorias">CATEGORIAS</li>
                     <li><a href="creatina.html">CREATINA</a></li>
                     <li>WHEY</li>
                     <li>ACESSÓRIOS</li>
