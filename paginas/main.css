@@ -39,7 +39,7 @@ main ul, header ol {
 
 
 /*AVISO REFERENTE AO FRETE GRÁTIS*/
-aside {
+header p.frete { /*header, p formata o header e o p*/
     text-align: center;
     background-color: #447A7D;
     padding: 5px;
@@ -140,4 +140,6 @@ h3 {
 
 footer {
     background-color: #447A7D;
+    padding: 4px;
+    margin-top: 2em;
 }
