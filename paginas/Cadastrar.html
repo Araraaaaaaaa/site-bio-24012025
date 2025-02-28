@@ -70,7 +70,25 @@
         </nav>
     </header>
     <main>
+        <article>
+            <h2>Prencha os dados:</h2>
+            <form action="index.html">
+                <label for="email">E-mail:</label> <!--label=rótulo.  for>deve ser colocado paa acessibilidade. é feito uma conexão via o atributo id do input-->
+                <input type="email" id="email"> <br>
+                <label for="name">Nome:</label>
+                <input type="text" id="name"> <br>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome"> <br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha"> <br>
+                <label for="telefone">Celular:</label>
+                <input type="tel" id="telefone"> <br>
+                <p>DDD + número</p>
 
+                <p>Ao clicar em "enviar", aceito os termos e condições e autorizo o uso dos meus dados de acordo com a delaração de privacidade.</p>
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
     </main>
     <!--FOOTER-->
     <footer>
