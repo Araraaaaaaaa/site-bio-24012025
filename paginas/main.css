@@ -37,6 +37,14 @@ main ul, header ol {
     padding: 0.3em;
 }
 
+/* Caixinha dos formulários */
+main article form{
+    border-radius: 3em ;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    background-color: #CC2B3E;
+    padding: 5em;
+    margin: 10em;
+}
 
 /*AVISO REFERENTE AO FRETE GRÁTIS*/
 header p.frete { /*header, p formata o header e o p*/

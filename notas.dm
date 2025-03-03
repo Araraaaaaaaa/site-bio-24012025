@@ -21,6 +21,7 @@
     -colocar as imagens em uma pasta separada
     -CSS externo
     -ter no mínimo um formulário
+    -refazer os bloco 
 
 #páginas (min 5):
 
