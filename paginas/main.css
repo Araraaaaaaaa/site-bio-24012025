@@ -14,19 +14,19 @@
 body{
     background-color: rgb(255,248,220);
 }
-main p{
-    padding: 3em;
-}
+/* main p{               fazer com que só se aplique para a página da creatina
+    margin: 0em 2em 0em 2em;
+} */
 a[href="creatina.html"] {
     background-color: #447A7D;
     padding: 5px;
     border-radius: 1em;
 }
 
-/* bloco de input que trata da pesquisa dos estados em que  apessoa quer ver o frete */
+/* bloco de input que trata da pesquisa dos estados em que a pessoa quer ver o frete */
 /* .escolha_estado { 
-    background-color: #56BDB1 ;
-    border: 0 none;
+    background-color: #56BDB1 ;                      As mudanças aqui devem ser feitas a fim de aproximar essa pesquisa
+    border: 0 none;                                com a feita a partir do figma
     outline: 0;
 } */
 
@@ -44,7 +44,7 @@ h2 {
     text-align: center;
 }
 
-main ul, header ol {
+main ul, main ol, header ul, header ol {
     display: flex; /* Alinha os itens horizontalmente */
     list-style-type: none;
     padding: 0.3em;
@@ -95,11 +95,20 @@ mark {
     color: #ffffff;
 }
 
-
+/* imagem BIO no menu nav de cima */
+header h1 a img{
+    margin: 0em 1em 0em 0em;
+    width: 2em;
+    height: 1em;
+}
+header div.navDeCima .lupa{
+    margin: 0em 15em 0em 0em;
+}
 div.navDeCima {
     background-color: #56BDB1;
     display: flex;
     justify-content: center;
+    padding: 1em 0em 0em 0em;
 }
 
 div.navDeCima li {
