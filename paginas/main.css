@@ -94,15 +94,19 @@ mark {
     border-radius: 1em;
     color: #ffffff;
 }
+/* imagens mais pra cima */
+header nav ol img{
 
+}
 /* imagem BIO no menu nav de cima */
 header h1 a img{
     margin: 0em 1em 0em 0em;
     width: 2em;
     height: 1em;
 }
-header div.navDeCima .lupa{
-    margin: 0em 15em 0em 0em;
+/* afasta apartir da barra da lupa */
+div.navDeCima label{
+    margin: 0em 12em 0em 0em;
 }
 div.navDeCima {
     background-color: #56BDB1;
