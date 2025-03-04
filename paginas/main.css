@@ -14,9 +14,10 @@
 body{
     background-color: rgb(255,248,220);
 }
-/* main p{               fazer com que só se aplique para a página da creatina
-    margin: 0em 2em 0em 2em;
-} */
+/* separaçoes laterais do paragrafo presente na página creatina.html */
+main p.loreipsu{
+    margin: 0em 12em 5em 10em;
+}
 a[href="creatina.html"] {
     background-color: #447A7D;
     padding: 5px;
@@ -94,10 +95,6 @@ mark {
     border-radius: 1em;
     color: #ffffff;
 }
-/* imagens mais pra cima */
-header nav ol img{
-
-}
 /* imagem BIO no menu nav de cima */
 header h1 a img{
     margin: 0em 1em 0em 0em;
@@ -142,6 +139,20 @@ header ol li a{
     color:rgb(0, 0, 0)
 }
 
+/* <página de compra> */
+article.compra li{
+    background-color: #ffffff;
+    border-radius: 2em;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    padding: 2.5em;
+    margin: 1em;
+    text-align: center;
+}
+article.compra img{
+    height: 10em;
+    width: 12em;
+}
+/* </página de compra> */
 .categoria {
     display: flex;
     justify-content: flex-start;
