@@ -18,8 +18,8 @@ body{
 main p.loreipsu{
     margin: 0em 12em 5em 10em;
 }
-a[href="creatina.html"] {
-    background-color: #447A7D;
+header nav a[href="creatina.html"] {
+    background-color: #56BDB1;
     padding: 5px;
     border-radius: 1em;
 }
@@ -61,6 +61,12 @@ main article ol{
 main h2{
     font-size: 2em;
 }
+
+.font-white {
+    color: white;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+}
+
 main article form{
     border-radius: 3em ;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
@@ -90,7 +96,7 @@ header p.frete { /*header, p formata o header e o p*/
     font-weight: 400;
 
 }
-mark {
+header mark {
     background: #CC2B3E;
     padding: 2px;
     border-radius: 1em;
@@ -141,18 +147,35 @@ header ol li a{
 }
 
 /* <página de compra> */
+article.compra h2{
+    padding: 1.5em;
+    margin: 1em 10em 1em 10em;
+    background-color: #56BDB1;
+    border-radius: 0.5em;
+    color: #ffffff;
+}
+article.compra h2 mark{
+    /* color: rgb(34,139,34); */
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(34,139,34);
+    background-color: #56BDB1;
+}
+article.compra ol{
+    justify-content: space-evenly;
+}
 article.compra li{
     background-color: #ffffff;
-    border-radius: 2em;
+    border-radius: 0.5em;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
     padding: 2.5em;
-    margin: 1em;
+    margin: 0 0.5em 0 0.5em;
     text-align: center;
 }
 article.compra img{
     height: 10em;
     width: 12em;
 }
+
 /* </página de compra> */
 .categoria {
     display: flex;
@@ -178,10 +201,13 @@ ul.benefico{
     padding: 1em;
 }
 ul.benefico div{
-    background-color: #2bcc30;
+    background-color: #CC2B3E;
     border-radius: 2em;
     color: #ffffff;
     padding: 10em 6em 10em 6em;
+}
+ul.benefico li h3{
+    font-weight: bold;
 }
 ul.index{
     list-style-type: none;
