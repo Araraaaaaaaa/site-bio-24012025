@@ -178,9 +178,10 @@ ul.benefico{
     padding: 1em;
 }
 ul.benefico div{
-    /* background-color: #2bcc30; */
-    margin: 2em;
-    padding: 1em;
+    background-color: #2bcc30;
+    border-radius: 2em;
+    color: #ffffff;
+    padding: 10em 6em 10em 6em;
 }
 ul.index{
     list-style-type: none;
