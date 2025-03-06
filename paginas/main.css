@@ -10,26 +10,39 @@
     text-decoration: none;
     font-family: "Roboto";
 }
-/* off white no fundo */
-body{
+
+body{/* off white no fundo */
     background-color: rgb(255,248,220);
 }
-/* separaçoes laterais do paragrafo presente na página creatina.html */
-main p.loreipsu{
+
+main p.loreipsu{/* separaçoes laterais do paragrafo presente na página creatina.html */
     margin: 0em 12em 5em 10em;
 }
+
 header nav a[href="creatina.html"] {
     background-color: #56BDB1;
     padding: 5px;
     border-radius: 1em;
 }
 
-/* bloco de input que trata da pesquisa dos estados em que a pessoa quer ver o frete */
-/* .escolha_estado { 
-    background-color: #56BDB1 ;                      As mudanças aqui devem ser feitas a fim de aproximar essa pesquisa
-    border: 0 none;                                com a feita a partir do figma
-    outline: 0;
-} */
+.escolha_estado form select{ /* bloco de input que trata da pesquisa dos estados em que a pessoa quer ver o frete */  
+    background-color: #56BDB1; /*pinta com a cor do fundo*/      
+    border: 0 none; /*tira a linha da caixinha*/                 
+    outline: 0; /*tira a linha da caixinha*/
+    box-shadow: 0px 1px 0px 0px rgb(0, 0, 0) ;
+}
+
+header form[action="compra.html"] input[type="search"]{ /* atrás do bloco de input que trata da pesquisa dos itens vendidos */  
+    background-color: rgba(0, 0, 0, 0%) ;
+    border: 0 none; /*tira a linha da caixinha*/                 
+    outline: 0; /*tira a linha da caixinha*/
+    box-shadow: -1px 0.5px 0px 0px rgb(0, 0, 0) ;
+}
+header form[action="compra.html"]{ 
+    background-color: #d9d9d9 ;                  
+    padding: 5px 5px 0 5px;
+    border-radius: 2em;
+}
 
 .navDeBaixo .categorias {
     text-align: left;
@@ -109,14 +122,14 @@ header h1 a img{
     height: 1em;
 }
 /* afasta apartir da barra da lupa */
-div.navDeCima label{
-    margin: 0em 12em 0em 0em;
+div.separar{
+    margin: 0em 12em 0em 0em; 
 }
 div.navDeCima {
     background-color: #56BDB1;
     display: flex;
     justify-content: center;
-    padding: 1em 0em 0em 0em;
+    padding: 1.3em 0em 1em 0em;
 }
 
 div.navDeCima li {
@@ -143,7 +156,11 @@ div.navDeBaixo ol li {
 
 header ol li a{
     text-decoration: none;
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
+}
+header ol img{ /*diminui os icones de carrinho e telefone*/
+    width: 15px;
+    height: 15px;
 }
 
 /* <página de compra> */
@@ -190,6 +207,10 @@ main img.imagem_principal {
     margin-top: 2em;
 
 }
+/* header .icone{
+    width: 5px;
+    height: 20px;
+} */
 
 /* <index.html> */
 ul.benefico{
@@ -267,3 +288,4 @@ footer {
     padding: 4px;
     margin-top: 2em;
 }
+ 

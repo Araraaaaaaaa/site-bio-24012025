@@ -34,4 +34,7 @@
 
 #os mais importantes:
 
-    -
+    -    /* background-color: #5a5757 ; */
+    box-shadow: 0 0 0 5px rgb(12, 152, 73);
+    /* padding: 5px 0px 5px 5px;
+    margin: 0 0 0 0; */
