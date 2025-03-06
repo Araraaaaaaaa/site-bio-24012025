@@ -14,7 +14,14 @@
 body{/* off white no fundo */
     background-color: rgb(255,248,220);
 }
-
+a[id="aindaEstouAqui"]{
+    color:#FFE100;
+}
+a img[ id="aindaEstouAqui"]{
+    background-color: #FFE100 ;
+    padding: 0px 6px 5px 5px;;
+    border-radius: 5em;
+}
 main p.loreipsu{/* separaçoes laterais do paragrafo presente na página creatina.html */
     margin: 0em 12em 5em 10em;
 }
@@ -40,7 +47,7 @@ header form[action="compra.html"] input[type="search"]{ /* atrás do bloco de in
 }
 header form[action="compra.html"]{ 
     background-color: #d9d9d9 ;                  
-    padding: 5px 5px 0 5px;
+    padding: 2px 8px 0 8px;
     border-radius: 2em;
 }
 
@@ -63,7 +70,16 @@ main ol, header ul, header ol {
     list-style-type: none;
     padding: 0.3em;
 }
-
+main li div img[src="imagens/pagina_inicial/crueltry free.png"]{
+    width: 10em ;
+    height: 10em ;
+    margin: -3em 1.5em 2em 2.5em;
+}
+main li div img[src="imagens/pagina_inicial/Check.png"]{
+    width: 10em ;
+    height: 10em ;
+    margin: -3em 1.5em 2em 2.5em;
+}
 /* página de ajuda */
 main article ol{
     padding: 5em;
@@ -158,11 +174,18 @@ header ol li a{
     text-decoration: none;
     color:rgb(0, 0, 0);
 }
-header ol img{ /*diminui os icones de carrinho e telefone*/
+header ol img, header figure img{ /*diminui os icones de carrinho, ponteiro e telefone*/
     width: 15px;
     height: 15px;
 }
-
+header figure img{
+    margin: 5px 5px 0 0;
+}
+header input.lupa[type="image"]{
+    margin: 6px 0 0 0;
+    width: 13px;
+    height: 13px;
+}
 /* <página de compra> */
 article.compra h2{
     padding: 1.5em;
@@ -185,14 +208,20 @@ article.compra li{
     border-radius: 0.5em;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
     padding: 2.5em;
-    margin: 0 0.5em 0 0.5em;
+    margin: 0 2.5em 0 2.5em;
     text-align: center;
 }
 article.compra img{
     height: 10em;
     width: 12em;
 }
-
+img[src="imagens/pagina_compras/estrelinhas.png"]{
+    margin: -4em -2em -4em -2em;
+    padding: 0 -5em 0 -5em;
+    /* background-color: #56BDB1; */
+    width: 20px;
+    height: 20px;
+}
 /* </página de compra> */
 .categoria {
     display: flex;
@@ -288,4 +317,3 @@ footer {
     padding: 4px;
     margin-top: 2em;
 }
- 
